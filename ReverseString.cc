@@ -1,3 +1,8 @@
+/*
+Time complexity: O(n)
+Space complexity: constant
+*/
+
 class Solution {
 public:
     string reverseString(string s) {
