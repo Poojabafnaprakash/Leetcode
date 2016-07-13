@@ -8,16 +8,15 @@ public:
     string reverseString(string s) {
         char temp;
         int length = s.length();
-        for(int i=0;i<=(length/2);i++)
+        for(int i=0;i<(length/2);i++)
         {
-        temp = s[length-i-1];
-        s[length-i-1] = s[i];
-        s[i] = temp;
+            temp = s[length-i-1];
+            s[length-i-1] = s[i];
+            s[i] = temp;
         }
         return s;
     }
 };
-
 
 
 
